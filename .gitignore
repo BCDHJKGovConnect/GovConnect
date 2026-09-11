@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Build output
+dist/
+build/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Replit
+.replit
+replit.nix
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test / debug output
+.nyc_output/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
